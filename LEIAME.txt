@@ -1,0 +1,30 @@
+# Projeto 7 - Monitoramento, Identificação e Mitigação de Model e Data Drift
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsadeploymlp7 python=3.13
+
+# Ative o ambiente:
+
+conda activate dsadeploymlp7 (ou: source activate dsadeploymlp7)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+python projeto7-parte1.py
+python projeto7-parte2.py
+python projeto7-parte3.py
+python projeto7-parte4.py
+python projeto7-parte5.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsadeploymlp7 --all
+
+
+
